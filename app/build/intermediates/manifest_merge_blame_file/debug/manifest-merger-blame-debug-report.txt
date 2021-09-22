@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.crystal.walkin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="com.sunmi.perm.LED" />
+11-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:6:5-58
+11-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:6:22-55
+12    <uses-permission android:name="com.sunmi.perm.MSR" />
+12-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:7:5-58
+12-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:7:22-55
+13    <uses-permission android:name="com.sunmi.perm.ICC" />
+13-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:8:5-58
+13-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:8:22-55
+14    <uses-permission android:name="com.sunmi.perm.PINPAD" />
+14-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:9:5-61
+14-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:9:22-58
+15    <uses-permission android:name="com.sunmi.perm.SECURITY" />
+15-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:10:5-63
+15-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:10:22-60
+16    <uses-permission android:name="com.sunmi.perm.CONTACTLESS_CARD" />
+16-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:11:5-71
+16-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:11:22-68
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:15:5-81
+17-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:15:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:16:5-79
+18-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:16:22-76
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:17:5-78
+19-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:17:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:5-67
+20-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:22-64
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:19:5-76
+21-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:19:22-73
+22    <uses-permission android:name="android.permission.CPAYSDK_SWIPE_MODULE" />
+22-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:21:5-78
+22-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:21:22-76
+23    <uses-permission android:name="android.permission.CPAYSDK_IC_MODULE" />
+23-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:22:5-75
+23-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:22:22-73
+24    <uses-permission android:name="android.permission.CPAYSDK_RF_MODULE" />
+24-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:23:5-75
+24-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:23:22-73
+25    <uses-permission android:name="android.permission.CPAYSDK_PRINTER_MODULE" />
+25-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:24:5-80
+25-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:24:22-78
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:25:5-65
+26-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:25:22-62
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:5-67
+27-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:22-64
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:27:5-75
+28-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:27:22-72
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:29:5-79
+29-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:29:22-77
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:30:5-81
+30-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:30:22-78
+31    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+31-->[com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:11:5-78
+31-->[com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:11:22-75
+32
+33    <application
+33-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:32:5-69:19
+34        android:name="com.crystal.walkin.condo.app.WalkinApplication"
+34-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:33:9-70
+35        android:allowBackup="true"
+35-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:34:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:35:9-43
+39        android:label="@string/app_name"
+39-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:36:9-41
+40        android:largeHeap="true"
+40-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:38:9-33
+41        android:roundIcon="@mipmap/ic_launcher"
+41-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:37:9-48
+42        android:supportsRtl="true"
+42-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:39:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+44-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:40:9-65
+45        <provider
+46            android:name="androidx.core.content.FileProvider"
+46-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:43:13-62
+47            android:authorities="com.crystal.walkin.fileprovider"
+47-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:44:13-64
+48            android:exported="false"
+48-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:45:13-37
+49            android:grantUriPermissions="true" >
+49-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:46:13-47
+50            <meta-data
+50-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:47:13-49:54
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:48:17-67
+52                android:resource="@xml/file_paths" />
+52-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:49:17-51
+53        </provider>
+54
+55        <activity android:name="com.crystal.walkin.condo.CheckOutActivity" />
+55-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:52:9-78
+55-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:52:19-75
+56        <activity android:name="com.crystal.walkin.condo.HomeActivity" />
+56-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:53:9-74
+56-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:53:19-71
+57        <activity android:name="com.crystal.walkin.condo.CheckInActivity" />
+57-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:54:9-77
+57-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:54:19-74
+58        <activity android:name="com.crystal.walkin.condo.ScanActivity" />
+58-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:55:9-74
+58-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:55:19-71
+59        <activity android:name="com.crystal.walkin.condo.MainActivity" >
+59-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:56:9-64:20
+59-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:56:19-71
+60            <intent-filter>
+60-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:57:13-63:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:58:17-69
+61-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:58:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:60:17-77
+63-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:60:27-74
+64                <!-- <category android:name="android.intent.category.HOME" /> -->
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:62:17-76
+65-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:62:27-73
+66            </intent-filter>
+67        </activity>
+68        <activity android:name="com.crystal.walkin.condo.TotalCheckInActivity" />
+68-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:65:9-82
+68-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:65:19-79
+69        <activity android:name="com.crystal.walkin.condo.TotalCheckOutActivity" />
+69-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:66:9-83
+69-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:66:19-80
+70        <activity android:name="com.crystal.walkin.condo.TotalRemainActivity" />
+70-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:67:9-81
+70-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:67:19-78
+71        <activity android:name="com.crystal.walkin.condo.TotalVisitorActivity" />
+71-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:68:9-82
+71-->/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:68:19-79
+72    </application>
+73
+74</manifest>

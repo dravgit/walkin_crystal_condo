@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:42:9-50:20
+	android:grantUriPermissions
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:46:13-47
+	android:authorities
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:44:13-64
+	android:exported
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:43:13-62
+manifest
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+MERGED from [PayLib-release-1.4.37.aar] /Users/draft/.gradle/caches/transforms-2/files-2.1/61b5d6eda87db272889d819986109f46/jetified-PayLib-release-1.4.37/AndroidManifest.xml:2:1-11:12
+MERGED from [com.synnapps:carouselview:0.1.4] /Users/draft/.gradle/caches/transforms-2/files-2.1/5bf2eb809c35cf60832ff1865c82281c/jetified-carouselview-0.1.4/AndroidManifest.xml:2:1-16:12
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/40c410e49eeac6da0311d780bc48b808/jetified-android-networking-1.0.2/AndroidManifest.xml:18:1-27:12
+MERGED from [com.huangyz0918:androidwm-light:0.1.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/1c71d955b55b4138d03267c85ecdce0a/jetified-androidwm-light-0.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/4124b23a2d66879dcc3a8c9b754eaa07/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/draft/.gradle/caches/transforms-2/files-2.1/460af2c6f090a414131f560f12d5b6a4/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/bb13a24811686055e77bd58f8a734766/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/bf073090e49f33d758ec340901603a64/jetified-zxing-1.9/AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/783ae281611d2161ad4d8d649f6431c6/jetified-rxandroid-2.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:2:1-18:12
+MERGED from [com.sunmi:printerlibrary:1.0.6] /Users/draft/.gradle/caches/transforms-2/files-2.1/0e2c4682044e19fdcb28d0142cccfc8c/jetified-printerlibrary-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3fdbc22891e9630e713321546a712af/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/1254ee44ce4c2cd1d1dfc1b52ccf3773/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/62836466526740e63c9375402246aa72/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba7a0ae4ac939e7bd1af14ac1bc5a0a8/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/afe1263cc4f6e19df823061096a0de44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7391fa84a217d9eb6dcebf99e37fc0c8/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a5679dd333713c51f7251dcc44af4b99/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/d62599308d5ef523c514c7942a00c4e9/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/28efd53754fc010e9ceb6802087bb055/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/093e54323149472f869090a352b4c998/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7cc60cba9f98fa442125f78ad12b5135/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/3db179a9e376048ae63f8565d7d170a9/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ac9717441d6b1e53be8a0a1a4f4ae2fc/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/6744446279692f5dda99d39f2e25587f/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c4d3faf04592ead831b6be1f38431a9d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/43e2720068483c1007fa0772e46b807b/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dcdfe7b8aa91b7c5b6a8a3d01edf95f5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/236a998e135b33b345a4d4b9c63efd08/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/b61a57b6945cda3b9e40deb38ea977bb/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/55a72159292fdeee5b4a5e47722f88d6/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/69f3b30d59d06ada26e80da16fd74a49/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dbeae6401e93555bb6292986c873ebb9/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e7dd3c7bba059d55010c6de66a10db87/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/5632645692dc6c8a7c969e9bdf858ec2/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a9d842f4c96fe55ab26e891ae32ac0ba/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e15458e136da93db710f843be376dc35/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ced8cbd41c0e256b4e804cc3721b87c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/59f065c445a1b92a90077905cb36934f/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a37896ba73b6faed495531737bbd2ce8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/220fb9268ce7bf451f9c52ebc03098f5/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a3883d20951daff987286d3d8cc14f48/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba769b78e00690895ac0aeeeefc27f37/jetified-timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/4fc74f80f007eb92bede0afd6d1d0649/jetified-roundedimageview-2.2.1/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:1-71:12
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#com.sunmi.perm.LED
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:6:5-58
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:6:22-55
+uses-permission#com.sunmi.perm.MSR
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:7:5-58
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:7:22-55
+uses-permission#com.sunmi.perm.ICC
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:8:5-58
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:8:22-55
+uses-permission#com.sunmi.perm.PINPAD
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:9:5-61
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:9:22-58
+uses-permission#com.sunmi.perm.SECURITY
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:10:5-63
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:10:22-60
+uses-permission#com.sunmi.perm.CONTACTLESS_CARD
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.CPAYSDK_SWIPE_MODULE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CPAYSDK_IC_MODULE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.CPAYSDK_RF_MODULE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.CPAYSDK_PRINTER_MODULE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:25:22-62
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:27:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:29:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:30:22-78
+application
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:32:5-69:19
+MERGED from [com.synnapps:carouselview:0.1.4] /Users/draft/.gradle/caches/transforms-2/files-2.1/5bf2eb809c35cf60832ff1865c82281c/jetified-carouselview-0.1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [com.synnapps:carouselview:0.1.4] /Users/draft/.gradle/caches/transforms-2/files-2.1/5bf2eb809c35cf60832ff1865c82281c/jetified-carouselview-0.1.4/AndroidManifest.xml:11:5-14:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/draft/.gradle/caches/transforms-2/files-2.1/460af2c6f090a414131f560f12d5b6a4/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/draft/.gradle/caches/transforms-2/files-2.1/460af2c6f090a414131f560f12d5b6a4/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/bb13a24811686055e77bd58f8a734766/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/bb13a24811686055e77bd58f8a734766/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/bf073090e49f33d758ec340901603a64/jetified-zxing-1.9/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/bf073090e49f33d758ec340901603a64/jetified-zxing-1.9/AndroidManifest.xml:11:5-20
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:13:5-16:19
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:13:5-16:19
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/55a72159292fdeee5b4a5e47722f88d6/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/55a72159292fdeee5b4a5e47722f88d6/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/69f3b30d59d06ada26e80da16fd74a49/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/69f3b30d59d06ada26e80da16fd74a49/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba769b78e00690895ac0aeeeefc27f37/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba769b78e00690895ac0aeeeefc27f37/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:36:9-41
+	android:roundIcon
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:37:9-48
+	android:largeHeap
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:38:9-33
+	android:icon
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:40:9-65
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:33:9-70
+activity#com.crystal.walkin.condo.CheckOutActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:52:9-78
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:52:19-75
+activity#com.crystal.walkin.condo.HomeActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:53:9-74
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:53:19-71
+activity#com.crystal.walkin.condo.CheckInActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:54:9-77
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:54:19-74
+activity#com.crystal.walkin.condo.ScanActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:55:9-74
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:55:19-71
+activity#com.crystal.walkin.condo.MainActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:56:9-64:20
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:56:19-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:57:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:60:27-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:62:27-73
+activity#com.crystal.walkin.condo.TotalCheckInActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:65:9-82
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:65:19-79
+activity#com.crystal.walkin.condo.TotalCheckOutActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:66:9-83
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:66:19-80
+activity#com.crystal.walkin.condo.TotalRemainActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:67:9-81
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:67:19-78
+activity#com.crystal.walkin.condo.TotalVisitorActivity
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:68:9-82
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:68:19-79
+uses-sdk
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+MERGED from [PayLib-release-1.4.37.aar] /Users/draft/.gradle/caches/transforms-2/files-2.1/61b5d6eda87db272889d819986109f46/jetified-PayLib-release-1.4.37/AndroidManifest.xml:7:5-9:41
+MERGED from [PayLib-release-1.4.37.aar] /Users/draft/.gradle/caches/transforms-2/files-2.1/61b5d6eda87db272889d819986109f46/jetified-PayLib-release-1.4.37/AndroidManifest.xml:7:5-9:41
+MERGED from [com.synnapps:carouselview:0.1.4] /Users/draft/.gradle/caches/transforms-2/files-2.1/5bf2eb809c35cf60832ff1865c82281c/jetified-carouselview-0.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.synnapps:carouselview:0.1.4] /Users/draft/.gradle/caches/transforms-2/files-2.1/5bf2eb809c35cf60832ff1865c82281c/jetified-carouselview-0.1.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/40c410e49eeac6da0311d780bc48b808/jetified-android-networking-1.0.2/AndroidManifest.xml:23:5-25:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/40c410e49eeac6da0311d780bc48b808/jetified-android-networking-1.0.2/AndroidManifest.xml:23:5-25:41
+MERGED from [com.huangyz0918:androidwm-light:0.1.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/1c71d955b55b4138d03267c85ecdce0a/jetified-androidwm-light-0.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.huangyz0918:androidwm-light:0.1.2] /Users/draft/.gradle/caches/transforms-2/files-2.1/1c71d955b55b4138d03267c85ecdce0a/jetified-androidwm-light-0.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/4124b23a2d66879dcc3a8c9b754eaa07/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/4124b23a2d66879dcc3a8c9b754eaa07/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/draft/.gradle/caches/transforms-2/files-2.1/460af2c6f090a414131f560f12d5b6a4/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/draft/.gradle/caches/transforms-2/files-2.1/460af2c6f090a414131f560f12d5b6a4/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/bb13a24811686055e77bd58f8a734766/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/bb13a24811686055e77bd58f8a734766/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/bf073090e49f33d758ec340901603a64/jetified-zxing-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:zxing:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/bf073090e49f33d758ec340901603a64/jetified-zxing-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/783ae281611d2161ad4d8d649f6431c6/jetified-rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/783ae281611d2161ad4d8d649f6431c6/jetified-rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunmi:printerlibrary:1.0.6] /Users/draft/.gradle/caches/transforms-2/files-2.1/0e2c4682044e19fdcb28d0142cccfc8c/jetified-printerlibrary-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunmi:printerlibrary:1.0.6] /Users/draft/.gradle/caches/transforms-2/files-2.1/0e2c4682044e19fdcb28d0142cccfc8c/jetified-printerlibrary-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9] /Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3fdbc22891e9630e713321546a712af/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3fdbc22891e9630e713321546a712af/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/1254ee44ce4c2cd1d1dfc1b52ccf3773/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/1254ee44ce4c2cd1d1dfc1b52ccf3773/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/62836466526740e63c9375402246aa72/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/62836466526740e63c9375402246aa72/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba7a0ae4ac939e7bd1af14ac1bc5a0a8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba7a0ae4ac939e7bd1af14ac1bc5a0a8/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/afe1263cc4f6e19df823061096a0de44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/afe1263cc4f6e19df823061096a0de44/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7391fa84a217d9eb6dcebf99e37fc0c8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7391fa84a217d9eb6dcebf99e37fc0c8/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a5679dd333713c51f7251dcc44af4b99/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a5679dd333713c51f7251dcc44af4b99/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/d62599308d5ef523c514c7942a00c4e9/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/d62599308d5ef523c514c7942a00c4e9/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/28efd53754fc010e9ceb6802087bb055/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/28efd53754fc010e9ceb6802087bb055/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/093e54323149472f869090a352b4c998/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/093e54323149472f869090a352b4c998/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7cc60cba9f98fa442125f78ad12b5135/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/7cc60cba9f98fa442125f78ad12b5135/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/3db179a9e376048ae63f8565d7d170a9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/3db179a9e376048ae63f8565d7d170a9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ac9717441d6b1e53be8a0a1a4f4ae2fc/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ac9717441d6b1e53be8a0a1a4f4ae2fc/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/6744446279692f5dda99d39f2e25587f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/6744446279692f5dda99d39f2e25587f/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c4d3faf04592ead831b6be1f38431a9d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c4d3faf04592ead831b6be1f38431a9d/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/43e2720068483c1007fa0772e46b807b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/43e2720068483c1007fa0772e46b807b/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dcdfe7b8aa91b7c5b6a8a3d01edf95f5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dcdfe7b8aa91b7c5b6a8a3d01edf95f5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/236a998e135b33b345a4d4b9c63efd08/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/236a998e135b33b345a4d4b9c63efd08/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/c3d2084802b5211df9c6a1255ff1a2c7/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/b61a57b6945cda3b9e40deb38ea977bb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/b61a57b6945cda3b9e40deb38ea977bb/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/55a72159292fdeee5b4a5e47722f88d6/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/55a72159292fdeee5b4a5e47722f88d6/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/69f3b30d59d06ada26e80da16fd74a49/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/69f3b30d59d06ada26e80da16fd74a49/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dbeae6401e93555bb6292986c873ebb9/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/dbeae6401e93555bb6292986c873ebb9/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e7dd3c7bba059d55010c6de66a10db87/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e7dd3c7bba059d55010c6de66a10db87/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/5632645692dc6c8a7c969e9bdf858ec2/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/5632645692dc6c8a7c969e9bdf858ec2/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a9d842f4c96fe55ab26e891ae32ac0ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a9d842f4c96fe55ab26e891ae32ac0ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e15458e136da93db710f843be376dc35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/e15458e136da93db710f843be376dc35/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ced8cbd41c0e256b4e804cc3721b87c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/ced8cbd41c0e256b4e804cc3721b87c9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/59f065c445a1b92a90077905cb36934f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/59f065c445a1b92a90077905cb36934f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a37896ba73b6faed495531737bbd2ce8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a37896ba73b6faed495531737bbd2ce8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/220fb9268ce7bf451f9c52ebc03098f5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/220fb9268ce7bf451f9c52ebc03098f5/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a3883d20951daff987286d3d8cc14f48/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/draft/.gradle/caches/transforms-2/files-2.1/a3883d20951daff987286d3d8cc14f48/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba769b78e00690895ac0aeeeefc27f37/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/ba769b78e00690895ac0aeeeefc27f37/jetified-timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/4fc74f80f007eb92bede0afd6d1d0649/jetified-roundedimageview-2.2.1/AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.2.1] /Users/draft/.gradle/caches/transforms-2/files-2.1/4fc74f80f007eb92bede0afd6d1d0649/jetified-roundedimageview-2.2.1/AndroidManifest.xml:7:5-43
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:47:13-49:54
+	android:resource
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:49:17-51
+	android:name
+		ADDED from /Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/AndroidManifest.xml:48:17-67
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [com.sunmi:sunmiui:1.1.27] /Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/AndroidManifest.xml:11:22-75

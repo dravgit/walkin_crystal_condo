@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckOutActivity">
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:padding="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btnScan"
+            android:background="@drawable/qrcode"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <ImageView
+            android:background="@drawable/logo"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgVperson"
+        android:background="@drawable/iconperson"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/imgVcar"
+        />
+    <ImageView
+        android:id="@+id/imgVslip"
+        android:background="@drawable/iconslip"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/headtVcheckouttime"
+        app:layout_constraintLeft_toLeftOf="@id/cancleCheckout"
+        app:layout_constraintRight_toRightOf="@id/cancleCheckout"
+        />
+    <ImageView
+        android:id="@+id/imgVcar"
+        android:background="@drawable/iconcar"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toRightOf="@id/imgVperson"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/headtVname"
+        android:text="ชื่อ : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgVcar"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVname"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imgVcar"
+        app:layout_constraintLeft_toRightOf="@id/headtVname"
+        />
+
+    <TextView
+        android:id="@+id/headtVidcard"
+        android:text="หมายเลขบัตร : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVname"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVidcard"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVname"
+        app:layout_constraintLeft_toRightOf="@id/headtVidcard"
+        />
+
+    <TextView
+        android:id="@+id/headtVcar"
+        android:text="ทะเบียนรถ : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVidcard"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVcar"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVidcard"
+        app:layout_constraintLeft_toRightOf="@id/headtVcar"
+        />
+
+    <TextView
+        android:id="@+id/headtVtemperate"
+        android:text="อุณหภูมิ : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/headtVcar"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVtemperate"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVcar"
+        app:layout_constraintLeft_toRightOf="@id/headtVtemperate"
+        />
+
+    <TextView
+        android:id="@+id/headtVdepartment"
+        android:text="แผนกที่มาติดต่อ : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVtemperate"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVdepartment"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVtemperate"
+        app:layout_constraintLeft_toRightOf="@id/headtVdepartment"
+        />
+
+    <TextView
+        android:id="@+id/headtVobjective"
+        android:text="จุดประสงค์ที่ติดต่อ : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVdepartment"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVobjective"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVdepartment"
+        app:layout_constraintLeft_toRightOf="@id/headtVobjective"
+        />
+
+    <TextView
+        android:id="@+id/headtVcheckintime"
+        android:text="วันเวลาที่เข้า : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVobjective"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+
+    <TextView
+        android:id="@+id/tVcheckintime"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tVobjective"
+        app:layout_constraintLeft_toRightOf="@id/headtVcheckintime"
+        />
+
+
+    <TextView
+        android:id="@+id/headtVcheckouttime"
+        android:text="วันเวลาที่ออก : "
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVcheckintime"
+        app:layout_constraintLeft_toLeftOf="@id/imgVperson"
+        />
+    <TextView
+        android:id="@+id/tVcheckouttime"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headtVcheckintime"
+        app:layout_constraintLeft_toRightOf="@id/headtVcheckouttime"
+        />
+    <TextView
+        android:id="@+id/tVcode"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/tVcheckintime"
+        app:layout_constraintLeft_toRightOf="@id/headtVcheckintime"
+        />
+
+    <Button
+        android:id="@+id/cancleCheckout"
+        android:background="@color/colorDanger"
+        android:text="ยกเลิก"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVslip" />
+
+    <Button
+        android:id="@+id/okCheckout"
+        android:background="@color/colorAccent"
+        android:text="ยืนยันออกตึก"
+        android:textColor="@color/white"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cancleCheckout"
+        app:layout_constraintTop_toBottomOf="@+id/imgVslip"
+        />
+
+    <Button
+        android:id="@+id/btnSlip"
+        android:text="ถ่ายภาพสลิป"
+        android:textColor="#ffffff"
+        android:background="@drawable/reprint"
+        android:layout_marginTop="35dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgVslip"
+        app:layout_constraintTop_toBottomOf="@+id/headtVcheckouttime"
+        />
+
+    <TextView
+        android:id="@+id/tVencode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

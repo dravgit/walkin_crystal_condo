@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_reprint.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/reprint.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_ic.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/ic.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_scan.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_scan.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_idcard.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/idcard.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_refresh.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/refresh.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_home.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/home.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_check_in.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_check_in.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_check_out.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_check_out.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_detail.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_checkout.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/checkout.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_iconcar.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/iconcar.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/raw_beep_sound.wav.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/raw/beep_sound.wav"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_people.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/people.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_square.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/square.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_iconslip.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/iconslip.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_checkin.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/checkin.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_qrcode.jpg.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/qrcode.jpg"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_card.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/card.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_ic_avatar.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/ic_avatar.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_ic_car.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/ic_car.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_print_ogo.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/print_ogo.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_car.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/car.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_border.xml.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/border.xml"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_iconperson.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/iconperson.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/drawable_iconreprint.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/drawable/iconreprint.png"
+    },
+    {
+        "merged": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/draft/StudioProjects/walkin_crystal_condo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

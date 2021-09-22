@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/draft/.gradle/caches/transforms-2/files-2.1/4124b23a2d66879dcc3a8c9b754eaa07/appcompat-1.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "255",
+                        "endLines": "10",
+                        "endColumns": "13",
+                        "endOffsets": "527"
+                    }
+                },
+                {
+                    "source": "/Users/draft/.gradle/caches/transforms-2/files-2.1/0b09d97541830af884f32d2319b90ef9/jetified-sunmiui-1.1.27/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,43",
+                        "endOffsets": "92,136"
+                    }
+                },
+                {
+                    "source": "/Users/draft/.gradle/caches/transforms-2/files-2.1/39e88721a35618eea967a4f16e54f4a4/jetified-core-1.9/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "141,199",
+                        "endColumns": "57,55",
+                        "endOffsets": "194,250"
+                    }
+                }
+            ]
+        }
+    ]
+}

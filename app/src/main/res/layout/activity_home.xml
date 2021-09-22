@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:padding="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:background="@drawable/refresh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo" />
+    </FrameLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/btnTotalCheckin"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home"
+            >
+            <TextView
+                android:text="จำนวนผู้เข้าตึก"
+                android:textSize="18dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_number_in"
+                android:text="00"
+                android:textSize="28dp"
+                android:textColor="#F48024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnTotalCheckout"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home"
+            >
+                <TextView
+                    android:text="จำนวนผู้ออกจากตึก"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                />
+                <TextView
+                    android:id="@+id/tv_number_out"
+                    android:text="00"
+                    android:textSize="28dp"
+                    android:textColor="#F48024"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:gravity="center"
+                />
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/row1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <RelativeLayout
+            android:id="@+id/btnTotalRemain"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home"
+            >
+            <TextView
+                android:text="จำนวนผู้ที่ยังอยู่ในตึก"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_number_stay"
+                android:text="00"
+                android:textSize="28dp"
+                android:textColor="#F48024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnTotalVisitor"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/home"
+            >
+            <TextView
+                android:text="จำนวนผู้ที่อยู่เกิน 1 วัน"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_number_more_one"
+                android:text="00"
+                android:textSize="28dp"
+                android:textColor="#F48024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/row2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <Button
+            android:background="@drawable/checkin"
+            android:id="@+id/btnCheckin"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+        <Button
+            android:background="@drawable/checkout"
+            android:id="@+id/btnCheckout"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+    </TableRow>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

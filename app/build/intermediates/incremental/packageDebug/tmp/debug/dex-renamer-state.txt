@@ -1,0 +1,4 @@
+#Mon Sep 20 17:29:37 ICT 2021
+base.0=/Users/draft/StudioProjects/walkin_crystal_condo/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

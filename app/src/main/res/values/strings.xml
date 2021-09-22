@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Walkin</string>
+    <string name="not_found_company">ไม่พบข้อมูลบริษัท</string>
+    <string name="not_found_serial">ไม่พบอุปกรณ์</string>
+    <string name="not_require_data">มีข้อผิดพลาดในการส่งข้อมูล</string>
+    <string name="something_error">เกิดข้อผิดพลาดบางอย่าง กรุณาลองใหม่</string>
+
+
+    <string name="contact_s">ติดต่อ %s</string>
+    <string name="stay_in">ยังอยู่ในตึก</string>
+    <string name="printer_finish">The print data is complete</string>
+    <string name="printer_need_paper">The printer is out of paper,Please load paper and try again</string>
+    <string name="printer_gray1">Set the printer grayscale to level 1</string>
+    <string name="printer_gray1_success">Set the printer grayscale to level 1 success</string>
+    <string name="printer_gray_exception">Exception occurred in Setting the printer grayscale</string>
+    <string name="printer_gray2">Set the printer grayscale to level 2</string>
+    <string name="printer_gray2_success">Set the printer grayscale to level 2 success</string>
+    <string name="printer_gray3">Set the printer grayscale to level 3</string>
+    <string name="printer_gray3_success">Set the printer grayscale to level 3 success</string>
+    <string name="printer_gray4">Set the printer grayscale to level 4</string>
+    <string name="printer_gray4_success">Set the printer grayscale to level 4 success</string>
+    <string name="printer_textsize_bigger">The font gets larger test data</string>
+    <string name="printer_textsize_blod">Bold print test data</string>
+    <string name="printer_left">Print the test data to left</string>
+    <string name="printer_center">Print the test data to center</string>
+    <string name="printer_right">Print the test data to right</string>
+    <string name="printer_underline">Underline test data</string>
+    <string name="printer_amount">Amount:</string>
+    <string name="printer_newline">Newline test data</string>
+    <string name="printer_acceptorid_name">Business Name Test Data</string>
+    <string name="printer_line_distance">Line spacing and character spacing content adjustment</string>
+    <string name="printer_left_distance">Left margin</string>
+    <string name="printer_device_busy">The printer device is busy</string>
+    <string name="printer_success">Print success</string>
+    <string name="printer_lack_paper">The printer is out of paper</string>
+    <string name="printer_over_heigh">The printer is overheating</string>
+    <string name="printer_over_heat">The printer is hot</string>
+    <string name="printer_low_power">The printer is low on power</string>
+    <string name="printer_other_exception_code">Other exceptions, exception code:</string>
+    <string name="printer_spit_success">The printer spit paper success</string>
+    <string name="printer_spit_exception">The printer spit paper exception:</string>
+    <string name="printer_status_exception">Exception occurred in getting the printer status</string>
+    <string name="printer_init_success">Initialize the print parameters success</string>
+    <string name="printer_init_exception">Initialization of printer parameters failed</string>
+    <string name="printer_textsize_normal">Normal font</string>
+    <string name="printer_textsize_small">Small font</string>
+    <string name="printer_texisize_higher">Times higher</string>
+    <string name="printer_textsize_wider">Times wide</string>
+    <string name="printer_higher_wider">Times highe and times wide</string>
+    <string name="print_qr_code">QR Code</string>
+    <string name="input_qrcode_msg">QR code information, no input default print 450 characters</string>
+    <string name="print_one_code">One dimension code</string>
+    <string name="input_one_code_msg">One dimension code information, no input default print 20 characters</string>
+    <string name="barcode_type">codeType</string>
+    <string name="print">print</string>
+    <string name="print_effect">Effect Print</string>
+    <string name="print_as_image">Print Text As Image</string>
+    <string name="print_datas">Print Datas</string>
+
+</resources>
